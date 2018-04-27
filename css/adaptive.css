@@ -1,0 +1,119 @@
+@media screen and (max-width: 1024px){
+	.main__head{
+		font-size: 3.5em;
+		margin: 35px auto;
+	}
+	.main__text{
+		margin: 15px auto;
+	}
+	.main__btn{
+		margin: 15px auto;
+	}
+	.mainArrow{
+		margin-bottom: 15px;
+	}
+	.picturesImg{
+		width: 30%;
+	}
+	.showPictures--down{
+		margin-bottom: 25px;
+	}
+	#stay{
+		height: 100%;
+	}
+	.flexContainer--form{
+		margin: 15px auto;
+	}
+}
+
+
+@media screen and (max-width: 768px){
+	.header{
+		width: 100%;
+		margin: 0 auto;
+		text-align: center;
+	}
+	.main__head {
+    font-size: 4.5em;
+    text-transform: uppercase;
+    color: #fff;
+    margin: 15px auto;
+	}
+	.main__btn{
+		margin-bottom: 15px;
+	}
+	.mainArrow{
+		margin: 5px auto;
+	}
+
+	#simple {
+    background-color: #f6f9f9;
+    width: 100%;
+    height: 100%;
+	}
+	.simple__head{
+		padding: 5px 0;
+	}
+	.flexContainer{
+		display: block;
+	}
+	.iconsContainer{
+		width: 100%;
+		margin: 0 auto;
+	}
+	.showeCase__head{
+		padding: 10px 0;
+	}
+	.showPictures{
+		margin-top: 0;
+	}
+	.showPictures--down{
+     margin-bottom: 15px; 
+	}
+	.picturesImg{
+		display: block;
+		width: 100%;
+	}
+	#stay{
+		height: 100%;
+	}
+	.lastForm{
+		padding-top: 0px;
+		text-align: left;
+	}
+	.form__head{
+		margin: 0 auto;
+	}
+	.form__text{
+		margin-bottom: 15px;
+	}
+	.main__form{
+		width: 100%;
+	}
+	.formInput--textarea{
+		min-height: 166px;
+		min-width: 10%;
+		max-width: 100%;
+	}
+	.flexContainer--form{
+		padding: 10px 0;
+	}
+	.footer{
+		height: 100%;
+	}
+	.footerContainer{
+		padding: 0;
+	}
+	.footerText{
+		display: block;
+		text-align: center;
+	    margin: 0 auto;
+	    padding: 10px;
+	}
+	.sociale{
+		float: none;
+		padding: 0;
+		text-align: center;
+	}
+
+}
