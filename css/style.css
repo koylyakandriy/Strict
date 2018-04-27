@@ -57,7 +57,9 @@ h4{
 	width: 100%;
 	position: relative;
 	left: 50%;
-	transform: translateX(-50%);
+	-webkit-transform: translateX(-50%);
+	    -ms-transform: translateX(-50%);
+	        transform: translateX(-50%);
 	display: inline-block;
 	text-align: center;
 }
@@ -136,8 +138,14 @@ h4{
 				/* Style for #icons */
 .flexContainer{
 	margin-top: 64px;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
 	display: flex;
-	justify-content: center;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
 	text-align: center;
 }
 
@@ -162,7 +170,9 @@ h4{
 	color: #fff;
 	position: relative;
     top: 50%;
-    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+            transform: translateY(-50%);
 }
 
 .iconsContainer__text{
@@ -213,6 +223,20 @@ h4{
 }
 
 #stay{
+	background: 
+	-webkit-gradient(linear, 
+    left top, left bottom, 
+    from(rgba(46, 57, 77, 0.8)), 
+    to(rgba(46, 57, 77, 0.8))), 
+    url(../img/Layer36.jpg) center no-repeat;
+	background: 
+	-webkit-linear-gradient(rgba(46, 57, 77, 0.8), 
+    rgba(46, 57, 77, 0.8)), 
+    url(../img/Layer36.jpg) center no-repeat;
+	background: 
+	-o-linear-gradient(rgba(46, 57, 77, 0.8), 
+    rgba(46, 57, 77, 0.8)), 
+    url(../img/Layer36.jpg) center no-repeat;
 	background: 
 	linear-gradient(rgba(46, 57, 77, 0.8), 
     rgba(46, 57, 77, 0.8)), 
@@ -267,12 +291,21 @@ h4{
 
 .flexContainer--form{
 	margin-top: 25px;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
 	display: flex;
-	justify-content: space-between;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
 }
 
 .checkbox{
-	align-self: center;
+	-webkit-align-self: center;
+	    -ms-flex-item-align: center;
+	            -ms-grid-row-align: center;
+	        align-self: center;
 }
 
 .checkbox--input{
@@ -335,7 +368,9 @@ footer{
 .fab{
 	position: relative;
 	top: 50%;
-	transform: translateY(-50%);
+	-webkit-transform: translateY(-50%);
+	    -ms-transform: translateY(-50%);
+	        transform: translateY(-50%);
 	color: #fff;
 }
 
@@ -386,6 +421,8 @@ a,
 input[type="submit"],
 input[type="button"],
 button{
+	-webkit-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	-o-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
 	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
 }
 input[type="submit"],
@@ -408,6 +445,8 @@ input[type="number"],
 input[type="tel"],
 textarea,
 select {
+	-webkit-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	-o-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
 	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
 }
 
