@@ -280,11 +280,15 @@ h4{
 	outline: none;
 }
 
+/*input:-webkit-autofill{
+	background-color: transparent;
+}
+*/
 .formInput--textarea{
 	min-width: 556px;
 	max-width: 556px;
 	min-height: 166px;
-	max-height: 250px;
+	max-height: 230px;
 }
 
 
